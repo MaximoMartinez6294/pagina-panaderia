@@ -14,28 +14,36 @@
     crossorigin="anonymous"
     referrerpolicy="no-referrer"
   />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 </head>
 <body>
-    <header>
-         <img onclick="location.href='index.html';" class="logo" src="/img/logo-panaderia.png" alt="">
-        <div class="navigation">
-            <div class="navigation-items">
-                <a href="#">INICIO</a>
-                <a href="#">NOSOTROS</a>
-                <a href="#">PRODUCTOS</a>
-                <a href="#">CONTACTO</a>
-            </div>
+  <nav class="navbar">
+    <div class="content">
+      <div class="logo">
+        <img class="logo-img" src="img/logomain.png" alt="">
+      </div>
+      <ul class="menu-list">
+        <div class="icon cancel-btn">
+          <i class="fas fa-times"></i>
         </div>
-    </header>
-    <!--HOME-->
-    <section class="home">
+        <li><a href="#">INICIO</a></li>
+        <li><a href="#">NOSOTROS</a></li>
+        <li><a href="#">PRODUCTOS</a></li>
+        <li><a href="#">CONTACTO</a></li>
+      </ul>
+      <div class="icon menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </nav>
+  <section class="home">
         <img src="img/panaderia.png" alt="background">
         <div class="content">
             <h1>LA CALIDAD</h1>
             <h1>DE SIEMPRE</h1>
             <h1 class="Desde">DESDE 1990</h1>
         </div>
-    </section>
+  </section>
       <!--Parte 2-->
     <div class="container-1">
         <img src="/img/FrasePanaderia.png" alt="FrasePanaderia">
@@ -66,6 +74,7 @@
         </div>
 
     </div>
+    <!--Footer-->
     <footer>
         <div class="container-f">
           <div class="wrapper">
@@ -106,7 +115,7 @@
 
               </ul>
             </div>
-            <div class="footer-widget">
+           <div class="footer-widget">
               <h6>Contacto</h6>
               <ul class="links">
                 <li><i class="fa-solid fa-phone" style="color: #ffffff;"></i><a href="#">+02920 24-5397</a></li>
@@ -116,15 +125,18 @@
               </ul>
             </div>
           </div>
-          <div class="footer-img">
+        <div class="footer-img">
 
-          </div>
-          <div class="copyright-wrapper">
-            <p>
-                ©2023  Todos los derechos reservados
-            </p>
-          </div>
         </div>
-      </footer>
+        <div class="copyright-wrapper">
+          <p>
+             ©2023  Todos los derechos reservados
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script src="App.js">
+
+    </script>
 </body>
 </html>

@@ -17,65 +17,74 @@
     
 }
 
-body::-webkit-scrollbar {
-    width: 0px;
+/* custom scroll bar */
+::-webkit-scrollbar {
+  width: 10px;
 }
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+::selection{
+background: rgb(0,123,255,0.3);
+}
+
 body{
     font-family: "Poppins", sans-serif, "Dm Sans", "Inter", "KanedaGothic", "Open Sans";
     overflow-x: hidden;
 } 
 
-header {
-    z-index: 999;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px 100px;
-
-    transition: 0.5s ease;
+.content{
+  max-width: 1250px;
+  margin: auto;
+  padding: 0 30px;
+}
+.navbar{
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  padding: 25px 0;
+  transition: all 0.3s ease;
+}
+.navbar.sticky{
+  z-index: 900;
+  background: #9A302D;
+  padding: 0px 0;
+  box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1);
+}
+.navbar .content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-header .navigation {
-    position: relative;
-    margin-top: -12px;
+.navbar .logo {
+    margin-left: -100px;
+    margin-top: -35px;
 }
 
-header .navigation .navigation-items a {
-    position: relative;
-    color: #ffff;
-    font-size: 1em;
-    font-weight: 500;
-    text-decoration: none;
-    margin-left: 30px;
-    transition: 0.3s ease;
+.navbar .logo-img {
+ width: 200px;
 }
-
-header .navigation .navigation-items a:before {
-    content: "";
-    position: absolute;
-    background: #9A302D;
-    width: 0;
-    height: 3px;
-    bottom: 0;
-    left: 0;
-    transition: 0.3s ease;
+.navbar .menu-list{
+  display: inline-flex;
+  width: 300px;
 }
-
-header .navigation .navigation-items a:hover:before{
-width: 100%;
+.menu-list li{
+  list-style: none;
 }
-
-header .logo{
-    width: 270px;
-    margin-top: -53px;
-} 
-
-section {
-    padding: 100px 200px;
+.menu-list li a{
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 25px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.menu-list li a:hover{
+  color: #007bff;
 }
 
 .home{
@@ -88,10 +97,11 @@ section {
 }
 
 .home .content {
-z-index: 888;
+z-index: 800;
 color: #ffff;
-width: 70%;
-margin-top: 120px;
+width: 500px;
+margin-left: 350px;
+margin-top: 250px;
 }
 
 .home .content h1{
@@ -103,6 +113,7 @@ margin-top: 120px;
    line-height: 75px;
    margin-bottom: 40px; 
    margin-left: 160px;
+   width: 500px;
 }
 .home .content .Desde{
     font-size: 150px;
@@ -111,6 +122,7 @@ margin-top: 120px;
     text-transform: uppercase;
     letter-spacing: 2px;
     line-height: 75px;
+    width: 450px;
     margin-bottom: 40px; 
     margin-left: 190px;
 
@@ -132,6 +144,18 @@ margin-top: 120px;
     height: 100%;
     object-fit: cover;
 }
+.icon{
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  display: none;
+}
+.menu-list .cancel-btn{
+  position: absolute;
+  right: 30px;
+  top: 20px;
+}
+
 
 /* Container 1*/
 .container-1 {
@@ -665,4 +689,690 @@ margin-top: -40px;
       margin: 0 10px 50px;
     }
   }
+
+  @media (max-width: 868px) {
+    body.disabled{
+      overflow: hidden;
+    }
+    .icon{
+      display: block;
+    }
+    .icon.hide{
+      display: none;
+    }
+    .navbar .menu-list{
+      position: fixed;
+      height: 100vh;
+      width: 100%;
+      max-width: 400px;
+      left: -100%;
+      top: 0px;
+      display: block;
+      padding: 40px 0;
+      text-align: center;
+      background: #9A302D;
+      transition: all 0.3s ease;
+    }
+    .navbar.show .menu-list{
+      left: 0%;
+    }
+    .navbar .menu-list li{
+      margin-top: 45px;
+    }
+    .navbar .menu-list li a{
+      font-size: 23px;
+      margin-left: -100%;
+      transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    }
+    .navbar.show .menu-list li a{
+      margin-left: 0px;
+    }
+  }
+  @media (max-width: 414px) {
   
+    .navbar .logo {
+      margin-left: 109px;
+      margin-top: -9px;
+  }
+
+  .navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    padding: 25px 0;
+    transition: all 0.3s ease;
+    z-index: 900;
+}
+
+.navbar.sticky {
+  z-index: 900;
+  background: #9A302D;
+  padding: 0px 0;
+  box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1);
+}
+
+  .navbar .logo-img {
+    width: 160px;
+}
+  
+      .navbar .show {
+          z-index: 900;
+      }
+  
+      .home .content {
+          z-index: 800;
+          color: #ffff;
+          width: 500px;
+          margin-left: -267px;
+          margin-top: 250px;
+      }
+  
+  .home .content h1 {
+      font-size: 100px;
+      font-weight: 900;
+      font-family: "KanedaGothic";
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      line-height: 45px;
+      margin-bottom: 40px;
+      margin-left: 294px;
+      width: 354px;
+  }
+  
+  .home .content .Desde {
+      font-size: 100px;
+      font-weight: 300;
+      font-family: "KanedaGothic2";
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      line-height: 50px;
+      width: 330px;
+      margin-left: 320px;
+  
+  }
+  
+  /* Container 1*/
+  
+  .container-1 img {
+    width: 270px;
+    margin-left: 78px;
+    margin-top: 0px;
+  }
+  .container-1 h1 {
+    color: rgb(30, 30, 30);
+    text-align: center;
+    font-feature-settings: "salt", "liga" 0;
+    font-family: "Open Sans";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px;
+    width: 361px;
+    margin-left: -79px;
+    margin-left: 22px;
+    margin-top: -82px;
+  }
+
+  .button-18 {
+    align-items: center;
+    background-color: #9A302D;
+    border: 0;
+    border-radius: 100px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 20px;
+    max-width: 480px;
+    min-height: 40px;
+    min-width: 0px;
+    overflow: hidden;
+    padding: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    touch-action: manipulation;
+    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    margin-left: 140px;
+    margin-top: 31px;
+    margin-bottom: 142px;
+}
+  
+    /*Container 2 */
+    .container-2 .Nuestros {
+      color: #1E1E1E;
+      text-align: center;
+      font-feature-settings: 'salt' on, 'liga' off;
+      font-family: "Kaneda Gothic";
+      font-size: 50px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 32px;
+      padding-top: 0px;
+      margin-top: -25px;
+      margin-left: 63px;
+      width: 160px;
+  }
+
+  .container-2 .Productos {
+    color: #9A302D;
+    text-align: center;
+    font-feature-settings: 'salt' on, 'liga' off;
+    font-family: "Kaneda Gothic";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    width: 112px;
+    margin-left: 208px;
+    margin-top: -33px;
+}
+
+.container-2 .Panificados {
+  color: #9A302D;
+  text-align: center;
+  font-feature-settings: 'salt' on, 'liga' off;
+  font-family: "Kaneda Gothic";
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  width: 160px;
+  margin-top: 90px;
+  margin-left: 197px;
+}
+
+.container-2 .Pan {
+  width: 142px;
+  margin-left: 20px;
+  margin-top: -11px;
+}
+
+.container-2 .Panificados-p {
+  color: #1E1E1E;
+  font-feature-settings: 'salt' on, 'liga' off;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  text-align: start;
+  font-weight: 300;
+  line-height: 32px;
+  width: 208px;
+  margin-left: 197px;
+  margin-top: -130px;
+}
+
+.container-2 .Panificados-container .button-1 {
+  align-items: center;
+  background-color: #9A302D;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  margin-left: 192px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.container-2 .Facturas {
+  color: #9A302D;
+  text-align: center;
+  font-feature-settings: 'salt' on, 'liga' off;
+  font-family: "Kaneda Gothic";
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  width: 206px;
+  margin-top: 36px;
+  margin-left: 175px;
+}
+
+.container-2 .Factura {
+  width: 239px;
+  margin-left: -13px;
+  margin-top: -25px;
+}
+
+.container-2 .Facturas-p {
+  color: #1E1E1E;
+  text-align: start;
+  font-feature-settings: 'salt' on, 'liga' off;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+  width: 134px;
+  margin-left: 214px;
+  margin-top: -122px;
+}
+
+.button-2 {
+  align-items: center;
+  background-color: #9A302D;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  margin-left: 202px;
+  margin-top: 14px;
+  margin-bottom: 40px;
+}
+
+.container-2 .Nutricional {
+  color: #9A302D;
+  text-align: center;
+  font-feature-settings: 'salt' on, 'liga' off;
+  font-family: "Kaneda Gothic";
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  width: 219px;
+  margin-top: 35px;
+  margin-left: 167px;
+}
+
+.container-2 .Grisin {
+  width: 160px;
+  margin-left: 34px;
+  margin-top: -8px;
+}
+
+.container-2 .Nutricional-p {
+  color: #1E1E1E;
+  text-align: start;
+  font-feature-settings: 'salt' on, 'liga' off;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+  width: 196px;
+  margin-left: 197px;
+  margin-top: -84px;
+}
+
+.button-3 {
+  align-items: center;
+  background-color: #9A302D;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  margin-left: 210px;
+  margin-top: 14px;
+  margin-bottom: 40px;
+}
+
+.wrapper .footer-widget .logo {
+  margin-bottom: -89px;
+  margin-top: -123px;
+  margin-left: -9px;
+  width: 376px;
+  vertical-align: middle;
+}
+
+}
+
+/* @media (max-width: 1040px) {
+
+/* Container 1 
+.container-1 img {
+  width: 270px;
+  margin-left: 426px;
+  margin-top: 0px;
+}
+
+.container-1 h1 {
+  color: rgb(30, 30, 30);
+  text-align: center;
+  font-feature-settings: "salt", "liga" 0;
+  font-family: "Open Sans";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+  width: 755px;
+  margin-left: 180px;
+  margin-top: -60px;
+}
+
+.button-18 {
+  align-items: center;
+  background-color: rgb(154, 48, 45);
+  border: 0px;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  vertical-align: middle;
+  margin-left: 489px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+/* Container 2 
+
+.container-2 .Nuestros {
+  color: rgb(30, 30, 30);
+  text-align: center;
+  font-feature-settings: "salt", "liga" 0;
+  font-family: "Kaneda Gothic";
+  font-size: 150px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  padding-top: 150px;
+  margin-left: -34px;
+  width: 755px;
+}
+
+.container-2 .Productos {
+  color: rgb(154, 48, 45);
+  text-align: center;
+  font-feature-settings: "salt", "liga" 0;
+  font-family: "Kaneda Gothic";
+  font-size: 150px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  max-width: 1040px;
+  width: 136px;
+  margin-left: 550px;
+  margin-top: -33px;
+}
+.container-2 .Panificados {
+  color: rgb(154, 48, 45);
+  text-align: center;
+  font-feature-settings: "salt", "liga" 0;
+  font-family: "Kaneda Gothic";
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  width: 755px;
+  margin-top: 205px;
+}
+
+.container-2 .Panificados-p {
+  color: rgb(30, 30, 30);
+  text-align: center;
+  font-feature-settings: "salt", "liga" 0;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+  width: 300px;
+  margin-left: 207px;
+  margin-top: -40px;
+}
+
+.container-2 .Pan {
+  width: 152px;
+  /* margin-left: 26px; 
+  margin-left: 189px;
+  margin-top: -24px;
+}
+
+
+.container-2 .Facturas {
+  color: rgb(154, 48, 45);
+  text-align: center;
+  font-feature-settings: "salt", "liga" 0;
+  font-family: "Kaneda Gothic";
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  width: 755px;
+  margin-top: -281px;
+  margin-left: 372px;
+}
+
+.container-2 .Facturas-p {
+  color: rgb(30, 30, 30);
+  text-align: center;
+  font-feature-settings: "salt", "liga" 0;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+  width: 420px;
+  margin-left: 545px;
+  margin-top: -40px;
+}
+
+.container-2 .Factura {
+  width: 205px;
+  margin-left: 558px;
+  margin-top: -14px;
+}
+
+.button-2 {
+  align-items: center;
+  background-color: rgb(154, 48, 45);
+  border: 0px;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  vertical-align: middle;
+  margin-left: 682px;
+  margin-top: 20px;
+
+}
+
+.container-2 .Nutricional {
+  color: rgb(154, 48, 45);
+  text-align: center;
+  font-feature-settings: "salt", "liga" 0;
+  font-family: "Kaneda Gothic";
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  width: 201px;
+  margin-top: -254px;
+  margin-left: 1068px;
+}
+
+.container-2 .Grisin {
+  width: 181px;
+  margin-top: -3px;
+  margin-left: 1004px;
+}
+
+.container-2 .Nutricional-p {
+  color: rgb(30, 30, 30);
+  text-align: center;
+  font-feature-settings: "salt", "liga" 0;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+  width: 308px;
+  margin-left: 1046px;
+  margin-top: -13px;
+}
+
+.button-3 {
+  align-items: center;
+  background-color: rgb(154, 48, 45);
+  border: 0px;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  vertical-align: middle;
+  margin-left: 1130px;
+  margin-top: 14px;
+  margin-bottom: 40px;
+}
+
+
+
+.container-2 .Panificados-container {
+  margin-left: -153px;
+}
+
+.container-2 .Facturas-container {
+  width: 144px;
+    margin-left: -220px;
+}
+
+.container-2 .Nutricional-container {
+  width: 105px;
+  margin-left: -354px;
+}
+
+.wrapper .footer-widget .logo {
+  margin-bottom: -100px;
+  margin-left: -59px;
+  margin-top: -118px;
+  width: 400px;
+  vertical-align: middle;
+}
+
+.wrapper .footer-widget p {
+  margin-bottom: 23px;
+  font-size: 15px;
+  text-align: start;
+  line-height: 24px;
+  width: 270px;
+  color: #fff;
+}
+
+.imagen-bread {
+  margin-top: -374px;
+  margin-left: 435px;
+}
+
+.wrapper .footer-widget {
+  width: calc(20% - 30px);
+  margin: 0 55px 50px;
+  padding: 0 12px;
+  line-height: 60px;
+}
+
+.links {
+  width: 450px;
+}
+ 
