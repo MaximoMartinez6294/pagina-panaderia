@@ -3,11 +3,13 @@
 @font-face {
     font-family:KanedaGothic ;
     src: url(assets/KanedaGothic-ExtraBold.ttf);
+    font-weight: 1 1000;
 }
 
 @font-face {
     font-family:KanedaGothic2 ;
     src: url(assets/KanedaGothic-ExtraLightItalic.ttf);
+    font-weight: 1 1000;
 }
 
 * {
@@ -1243,13 +1245,13 @@ margin-top: -60px;
     text-align: center;
     font-feature-settings: 'salt' on, 'liga' off;
     font-family: "Kaneda Gothic";
-    font-size: 60px;
+    font-size: 50px;
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
     padding-top: 0px;
     margin-top: -25px;
-    margin-left: 36px;
+    margin-left: 44px;
     width: 160px;
 }
 
@@ -1258,12 +1260,12 @@ margin-top: -60px;
   text-align: center;
   font-feature-settings: 'salt' on, 'liga' off;
   font-family: "Kaneda Gothic";
-  font-size: 60px;
+  font-size: 50px;
   font-style: normal;
   font-weight: 400;
   line-height: 32px;
   width: 112px;
-  margin-left: 196px;
+  margin-left: 189px;
   margin-top: -33px;
 }
 
