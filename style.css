@@ -1126,9 +1126,9 @@ margin-left: 22px;
     .home .content {
       z-index: 800;
       color: #ffff;
-      width: 500px;
+      width: 362px;
       margin-left: -252px;
-      margin-top: 0px;
+      margin-top: 51px;
   }
   
   .navbar .menu-list {
@@ -1154,7 +1154,7 @@ margin-left: 22px;
   line-height: 45px;
   margin-bottom: 40px;
   margin-left: 294px;
-  width: 320px;
+  width: 322px;
 }
 
 .home .content .Desde {
@@ -1171,23 +1171,23 @@ margin-left: 22px;
 /* Container 1*/
 
 .container-1 img {
-  width: 270px;
-  margin-left: 78px;
+  width: 173px;
+  margin-left: 112px;
   margin-top: 0px;
 }
 .container-1 h1 {
-  color: rgb(30, 30, 30);
-  text-align: center;
-  font-feature-settings: "salt", "liga" 0;
-  font-family: "Open Sans";
-  font-size: 25px;
-  font-style: normal;
-  font-weight: 300;
-  line-height: 32px;
-  width: 350px;
-  margin-left: -79px;
-  margin-left: 22px;
-  margin-top: -82px;
+color: rgb(30, 30, 30);
+text-align: center;
+font-feature-settings: "salt", "liga" 0;
+font-family: "Open Sans";
+font-size: 17px;
+font-style: normal;
+font-weight: 300;
+line-height: 32px;
+width: 279px;
+margin-left: -79px;
+margin-left: 60px;
+margin-top: -60px;
 }
 
 .button-18 {
