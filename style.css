@@ -40,7 +40,7 @@ background: rgb(0,123,255,0.3);
 }
 
 body{
-    font-family: "KanedaGothic", "Poppins", sans-serif, "Dm Sans", "Inter",  "Open Sans";
+    font-family:  "Poppins", "KanedaGothic", sans-serif, "Dm Sans", "Inter",  "Open Sans";
     overflow-x: hidden;
 } 
 .navbar{
@@ -1284,7 +1284,7 @@ margin-top: -60px;
   text-align: start;
   font-weight: 300;
   line-height: 32px;
-  width: 180px;
+  width: 164px;
   margin-left: 197px;
   margin-top: -130px;
 }
