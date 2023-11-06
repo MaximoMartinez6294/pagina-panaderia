@@ -35,12 +35,6 @@ body{
     font-family: "Poppins", sans-serif, "Dm Sans", "Inter", "KanedaGothic", "Open Sans";
     overflow-x: hidden;
 } 
-
-.content{
-  max-width: 1250px;
-  margin: auto;
-  padding: 0 30px;
-}
 .navbar{
   position: fixed;
   width: 100%;
@@ -66,25 +60,29 @@ body{
 }
 
 .navbar .logo-img {
- width: 200px;
+  width: 170px;
+  margin-top: 32px;
+ cursor: pointer;
 }
 .navbar .menu-list{
   display: inline-flex;
-  width: 300px;
+  width: 330px;
 }
 .menu-list li{
   list-style: none;
 }
-.menu-list li a{
+.menu-list li a {
   color: #fff;
-  font-size: 18px;
-  font-weight: 500;
+  font-size: 20px;
+  font-weight: 300;
   margin-left: 25px;
   text-decoration: none;
   transition: all 0.3s ease;
 }
+
+
 .menu-list li a:hover{
-  color: #007bff;
+  color: #5a0505;
 }
 
 .home{
@@ -97,42 +95,41 @@ body{
 }
 
 .home .content {
-z-index: 800;
-color: #ffff;
-width: 500px;
-margin-left: 350px;
-margin-top: 250px;
+  z-index: 800;
+  color: #ffff;
+  width: 500px;
+  margin-left: 415px;
+  margin-top: 200px;
 }
 
-.home .content h1{
-   font-size: 150px;
-   font-weight: 900;
-   font-family: "KanedaGothic";
-   text-transform: uppercase;
-   letter-spacing: 2px;
-   line-height: 75px;
-   margin-bottom: 40px; 
-   margin-left: 160px;
-   width: 500px;
+.home .content h1 {
+  font-size: 180px;
+  font-weight: 900;
+  font-family: "KanedaGothic";
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 75px;
+  margin-bottom: 60px;
+  margin-left: 160px;
+  width: 587px;
 }
-.home .content .Desde{
-    font-size: 150px;
-    font-weight: 300;
-    font-family: "KanedaGothic2";
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    line-height: 75px;
-    width: 450px;
-    margin-bottom: 40px; 
-    margin-left: 190px;
-
- }
+.home .content .Desde {
+  font-size: 160px;
+  font-weight: 300;
+  font-family: "KanedaGothic2";
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 75px;
+  width: 450px;
+  margin-bottom: 40px;
+  margin-left: 228px;
+}
 
 .content {
     max-width: 1170px;
     margin-left: auto;
     margin-right: auto;
-    padding: 1.5em;
+    padding: 0px;
     color: #222;
 }
 .home img {
