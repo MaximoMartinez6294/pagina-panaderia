@@ -12,6 +12,12 @@
     font-weight: 1 1000;
 }
 
+@font-face {
+  font-family:KanedaGothicR ;
+  src: url(assets/KanedaGothic-Regular.ttf);
+  font-weight: 1 1000;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -34,7 +40,7 @@ background: rgb(0,123,255,0.3);
 }
 
 body{
-    font-family: "Poppins", sans-serif, "Dm Sans", "Inter", "KanedaGothic", "Open Sans";
+    font-family: "KanedaGothic", "Poppins", sans-serif, "Dm Sans", "Inter",  "Open Sans";
     overflow-x: hidden;
 } 
 .navbar{
@@ -1244,7 +1250,7 @@ margin-top: -60px;
     color: #1E1E1E;
     text-align: center;
     font-feature-settings: 'salt' on, 'liga' off;
-    font-family: "Kaneda Gothic";
+    font-family: "KanedaGothicR";
     font-size: 50px;
     font-style: normal;
     font-weight: 400;
@@ -1259,10 +1265,10 @@ margin-top: -60px;
   color: #9A302D;
   text-align: center;
   font-feature-settings: 'salt' on, 'liga' off;
-  font-family: "Kaneda Gothic";
+  font-family: "KanedaGothicR";
   font-size: 50px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 32px;
   width: 112px;
   margin-left: 189px;
@@ -1289,18 +1295,18 @@ margin-left: 20px;
 margin-top: -11px;
 }
 
-.container-2 .Panificados-p {
-  color: #1E1E1E;
+.container-2 .Panificados {
+  color: #9A302D;
+  text-align: center;
   font-feature-settings: 'salt' on, 'liga' off;
-  font-family: Open Sans;
-  font-size: 17px;
+  font-family: "KanedaGothicR";
+  font-size: 55px;
   font-style: normal;
-  text-align: start;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 32px;
-  width: 171px;
+  width: 160px;
+  margin-top: 90px;
   margin-left: 197px;
-  margin-top: -130px;
 }
 
 .container-2 .Panificados-container .button-1 {
@@ -1339,7 +1345,7 @@ margin-bottom: 40px;
   color: #9A302D;
   text-align: center;
   font-feature-settings: 'salt' on, 'liga' off;
-  font-family: "Kaneda Gothic";
+  font-family: "KanedaGothicR";
   font-size: 55px;
   font-style: normal;
   font-weight: 400;
@@ -1405,7 +1411,7 @@ margin-bottom: 40px;
   color: #9A302D;
   text-align: center;
   font-feature-settings: 'salt' on, 'liga' off;
-  font-family: "Kaneda Gothic";
+  font-family: "KanedaGothicR";
   font-size: 55px;
   font-style: normal;
   font-weight: 400;
