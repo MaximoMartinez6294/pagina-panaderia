@@ -691,9 +691,10 @@ margin-top: -40px;
     body.disabled{
       overflow: hidden;
     }
-    .icon{
+    .icon {
       display: block;
-    }
+      margin-right: 20px;
+  }
     .icon.hide{
       display: none;
     }
@@ -748,8 +749,9 @@ margin-top: -40px;
   box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1);
 }
 
-  .navbar .logo-img {
-    width: 160px;
+.navbar .logo-img {
+  width: 160px;
+  margin-left: 22px;
 }
   
       .navbar .show {
@@ -757,12 +759,12 @@ margin-top: -40px;
       }
   
       .home .content {
-          z-index: 800;
-          color: #ffff;
-          width: 500px;
-          margin-left: -267px;
-          margin-top: 250px;
-      }
+        z-index: 800;
+        color: #ffff;
+        width: 500px;
+        margin-left: -237px;
+        margin-top: 0px;
+    }
   
   .home .content h1 {
       font-size: 100px;
@@ -848,7 +850,7 @@ margin-top: -40px;
       text-align: center;
       font-feature-settings: 'salt' on, 'liga' off;
       font-family: "Kaneda Gothic";
-      font-size: 50px;
+      font-size: 60px;
       font-style: normal;
       font-weight: 400;
       line-height: 32px;
@@ -863,12 +865,12 @@ margin-top: -40px;
     text-align: center;
     font-feature-settings: 'salt' on, 'liga' off;
     font-family: "Kaneda Gothic";
-    font-size: 50px;
+    font-size: 60px;
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
     width: 112px;
-    margin-left: 208px;
+    margin-left: 218px;
     margin-top: -33px;
 }
 
