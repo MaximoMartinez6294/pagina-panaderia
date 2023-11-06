@@ -105,7 +105,7 @@ body{
 .home .content h1 {
   font-size: 180px;
   font-weight: 900;
-  font-family: "KanedaGothic";
+  font-family: "KanedaGothic", "Inter";
   text-transform: uppercase;
   letter-spacing: 2px;
   line-height: 75px;
@@ -239,7 +239,7 @@ body{
     color: #9A302D;
     text-align: center;
     font-feature-settings: 'salt' on, 'liga' off;
-    font-family: "Kaneda Gothic";
+    font-family: "Kaneda Gothic", "Inter";
     font-size: 150px;
     font-style: normal;
     font-weight: 400;
@@ -252,7 +252,7 @@ body{
     color: #1E1E1E;
     text-align: center;
     font-feature-settings: 'salt' on, 'liga' off;
-    font-family: "Kaneda Gothic";
+    font-family: "Kaneda Gothic" , "Inter";
     font-size: 150px;
     font-style: normal;
     font-weight: 400;
@@ -267,7 +267,7 @@ body{
     color: #9A302D;
     text-align: center;
     font-feature-settings: 'salt' on, 'liga' off;
-    font-family: "Kaneda Gothic";
+    font-family: "Kaneda Gothic" , "Inter";
     font-size: 90px;
     font-style: normal;
     font-weight: 400;
@@ -336,7 +336,7 @@ margin-top: -40px;
   color: #9A302D;
   text-align: center;
   font-feature-settings: 'salt' on, 'liga' off;
-  font-family: "Kaneda Gothic";
+  font-family: "Kaneda Gothic", "Inter";
   font-size: 90px;
   font-style: normal;
   font-weight: 400;
