@@ -1159,7 +1159,7 @@ margin-left: 22px;
     position: fixed;
     height: 115vh;
     width: 100%;
-    max-width: 400px;
+    max-width: 350px;
     left: -100%;
     top: 0px;
     display: block;
@@ -1178,7 +1178,7 @@ margin-left: 22px;
   line-height: 45px;
   margin-bottom: 16px;
   margin-left: 325px;
-  width: 322px;
+  width: 299px;
 }
 .home .content .Desde {
   font-size: 80px;
