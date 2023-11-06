@@ -1084,6 +1084,11 @@ margin-top: -40px;
 
 @media (max-width: 376px) {
 
+  .navbar .menu-list li {
+    margin-top: 45px;
+    width: 371px;
+}
+
   .home {
     position: relative;
     width: 376px;
@@ -1092,6 +1097,17 @@ margin-top: -40px;
     justify-content: center;
     flex-direction: column;
 }
+
+.home img {
+  z-index: 0;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 376px;
+  height: 100%;
+  object-fit: cover;
+}
+
 
   .navbar .logo {
     margin-left: 109px;
@@ -1119,15 +1135,15 @@ width: 160px;
 margin-left: 22px;
 }
 
-    .navbar .show {
-        z-index: 900;
-    }
+  .navbar .show {
+    z-index: 900;
+  }
 
     .home .content {
       z-index: 800;
       color: #ffff;
       width: 362px;
-      margin-left: -252px;
+      margin-left: -261px;
       margin-top: 51px;
   }
   
@@ -1146,26 +1162,25 @@ margin-left: 22px;
 }
 
 .home .content h1 {
-  font-size: 100px;
+  font-size: 80px;
   font-weight: 900;
   font-family: "KanedaGothic";
   text-transform: uppercase;
   letter-spacing: 2px;
   line-height: 45px;
-  margin-bottom: 40px;
-  margin-left: 294px;
+  margin-bottom: 16px;
+  margin-left: 325px;
   width: 322px;
 }
-
 .home .content .Desde {
-  font-size: 100px;
+  font-size: 80px;
   font-weight: 300;
   font-family: "KanedaGothic2";
   text-transform: uppercase;
   letter-spacing: 2px;
   line-height: 50px;
   width: 286px;
-  margin-left: 320px;
+  margin-left: 339px;
 }
 
 /* Container 1*/
@@ -1465,5 +1480,26 @@ footer {
   margin-left: -9px;
   width: 345px;
   vertical-align: middle;
+}
+
+.footer-widget:nth-child(1) {
+  width: 360px;
+  margin: 0 10px 50px;
+}
+
+.container-f {
+  width: 370px;
+  max-width: 1320px;
+  margin: 0px auto;
+  padding: 0px 12px;
+}
+
+.links {
+  width: 336px;
+}
+
+.wrapper .footer-widget, .wrapper .footer-widget:nth-child(1) {
+  width: 370px;
+  margin: 0 10px 50px;
 }
 }
