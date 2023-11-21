@@ -76,6 +76,9 @@ body{
   display: inline-flex;
   width: 330px;
 }
+
+
+
 .menu-list li{
   list-style: none;
 }
@@ -243,45 +246,45 @@ body{
     margin-bottom: 100px;
 }
 
-.container-2 .Productos{
-    color: #9A302D;
-    text-align: center;
-    font-feature-settings: 'salt' on, 'liga' off;
-    font-family: "Kaneda Gothic", "Inter";
-    font-size: 150px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 32px;
-    width: 755px;
-    margin-left: 630px;
-    margin-top: -33px;
+.container-2 .Productos {
+  color: #9A302D;
+  text-align: center;
+  font-feature-settings: 'salt' on, 'liga' off;
+  font-family: "Kaneda Gothic", "Inter";
+  font-size: 150px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  width: 230px;
+  margin-left: 795px;
+  margin-top: -44px;
 }
 .container-2 .Nuestros {
-    color: #1E1E1E;
-    text-align: center;
-    font-feature-settings: 'salt' on, 'liga' off;
-    font-family: "Kaneda Gothic" , "Inter";
-    font-size: 150px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 32px;
-    padding-top: 150px;
-    /* margin-top: 9px; */
-    margin-left: 233px;
-    width: 755px;
+  color: #1E1E1E;
+  text-align: center;
+  font-feature-settings: 'salt' on, 'liga' off;
+  font-family: "Kaneda Gothic" , "Inter";
+  font-size: 150px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  padding-top: 150px;
+  margin-left: 440px;
+  width: 290px;
 }
 
 .container-2 .Panificados {
-    color: #9A302D;
-    text-align: center;
-    font-feature-settings: 'salt' on, 'liga' off;
-    font-family: "Kaneda Gothic" , "Inter";
-    font-size: 90px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 32px;
-    width: 755px;
-    margin-top: 205px;
+  color: #9A302D;
+  text-align: center;
+  font-feature-settings: 'salt' on, 'liga' off;
+  font-family: "Kaneda Gothic" , "Inter";
+  font-size: 90px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  width: 222px;
+  margin-left: 248px;
+  margin-top: 205px;
 }
 
 .container-2 .Pan {
@@ -306,17 +309,17 @@ margin-top: -40px;
 }
 
 .container-2 .Facturas {
-    color: #9A302D;
-    text-align: center;
-    font-feature-settings: 'salt' on, 'liga' off;
-    font-family: "Kaneda Gothic";
-    font-size: 90px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 32px;
-    width: 755px;
-    margin-top: -327px;
-    margin-left: 400px;
+  color: #9A302D;
+  text-align: center;
+  font-feature-settings: 'salt' on, 'liga' off;
+  font-family: "Kaneda Gothic";
+  font-size: 90px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  width: 208px;
+  margin-top: -346px;
+  margin-left: 673px;
 }
 
 .container-2 .Facturas-p {
@@ -349,9 +352,9 @@ margin-top: -40px;
   font-style: normal;
   font-weight: 400;
   line-height: 32px;
-  width: 560px;
-  margin-top: -323px;
-  margin-left: 927px;
+  width: 107px;
+  margin-top: -344px;
+  margin-left: 1096px;
 }
 
 .container-2 .Grisin {
@@ -670,8 +673,267 @@ margin-top: -40px;
   .copyright-wrapper p a:hover {
     color: #037ef3;
   }
+
+  /* Nosotros*/
+
+  .navbar-2{
+    position: fixed;
+    background: #9A302D;
+    width: 100%;
+    z-index: 890;
+    padding: 25px 0;
+    transition: all 0.3s ease;
+  }
+  
+  .navbar-2 .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .navbar-2 .sticky{
+    z-index: 900;
+    background: #9A302D;
+    padding: 0px 0;
+    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1);
+  }
+  
+  .navbar-2 .logo {
+    margin-left: -100px;
+    margin-top: -35px;
+  }
+  
+  .navbar-2 .logo-img {
+  width: 170px;
+  margin-top: 32px;
+  cursor: pointer;
+  }
+  .navbar-2 .menu-list{
+  display: inline-flex;
+  width: 330px;
+  }
+
+  .home-container {
+    max-width: 100vw;
+  }
+
+  .home-container .home-nosotros {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .home-nosotros img {
+    z-index: 000;
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.home-nosotros .content {
+  z-index: 888;
+  color: #fff;
+  width: 100%;
+  margin-top: 120px;
+  overflow-y: hidden;
+  margin-left: 620px;
+}
+
+.home-nosotros .content h1 {
+  font-family: "KanedaGothic";
+  font-size: 150px;
+  font-weight: 900;
+  letter-spacing: 3px;
+  margin-bottom: 40px;
+}
+
+.split-section {
+  width: 100%;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.split-section .relative {
+  position: relative;
+}
+
+.split-section-headings {
+  width: 50%;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.left {
+  float: left !important;
+}
+
+.ssh-table {
+  width: 100%;
+  min-height: 500px;
+  display: table;
+}
+
+.ssh-cell {
+  display: table-cell;
+  padding-left: 10px;
+  padding-right: 10px;
+  vertical-align: middle;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.split-section-content {
+  width: 50%;
+  position: relative;
+  overflow: hidden;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.split-section-wrapper {
+  padding: 0px 80px;
+  margin-top: 30px;
+}
+
+.right {
+  float: right !important;
+}
+.page-section, .small-section {
+  /* width: 100%; */
+  display: block;
+  /* position: relative; */
+  /* overflow: hidden; */
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  /* -webkit-background-size: cover; */
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  /* background-size: cover; */
+  /* -webkit-box-sizing: border-box; */
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 140px 0;
+}
+.bg-scroll {
+  background-attachment: scroll !important;
+}
+.text {
+  font-size: 16px;
+  font-weight: 300;
+  color: #5f5f5f;
+  line-height: 1.8;
+}
+.align-left {
+  text-align: left !important;
+}
+
+.text h1, .text h2, .text h3, .text h4, .text h5, .text h6 {
+  color: #111;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+.mt-0 {
+  margin-top: 0!important;
+}
+.font-alt {
+  font-family: "KanedaGothic2", arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+}
+h2 {
+  font-size: 28px;
+  
+}
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 1.3em;
+  line-height: 1.4;
+  font-weight: 400;
+}
+h2, .h2 {
+  font-size: 50px;
+}
+h1, .h1, h2, .h2, h3, .h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+p {
+  margin: 0 0 2em 0;
+}
+p {
+  margin: 0 0 10px;
+}
+
+
   
   /* Let's write the media query */
+
+  @media only screen and (max-width: 992px){
+    .split-section-headings, .split-section-headings.left, .split-section-headings.right, .split-section-content, .split-section-content.left, .split-section-content.right {
+      float: none !important;
+      width: auto;
+  }
+  }
+
+
+  
+
+
+@media only screen and (max-width: 768px){
+  .page-section {
+    padding: 80px 0;
+}
+}
+
+@media only screen and (max-width: 1199px) {
+  .split-section-wrapper {
+    padding: 0 50px;
+}
+}
+
+@media only screen and (max-width: 480px) {
+  .section-text, .text {
+    line-height: 1.7;
+}
+
+}
+
   @media (max-width: 992px) {
     .container {
       max-width: 960px;
@@ -733,6 +995,33 @@ margin-top: -40px;
     .navbar.show .menu-list li a{
       margin-left: 0px;
     }
+    .navbar-2 .menu-list{
+      position: fixed;
+      height: 100vh;
+      width: 100%;
+      max-width: 400px;
+      left: -100%;
+      top: 0px;
+      display: block;
+      padding: 40px 0;
+      text-align: center;
+      background: #9A302D;
+      transition: all 0.3s ease;
+    }
+    .navbar-2.show .menu-list{
+      left: 0%;
+    }
+    .navbar-2 .menu-list li{
+      margin-top: 45px;
+    }
+    .navbar-2 .menu-list li a{
+      font-size: 23px;
+      margin-left: -100%;
+      transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    }
+    .navbar-2.show .menu-list li a{
+      margin-left: 0px;
+    }
   }
   @media (max-width: 414px) {
   
@@ -762,11 +1051,11 @@ margin-top: -40px;
   margin-left: 22px;
 }
   
-      .navbar .show {
-          z-index: 900;
-      }
+  .navbar .show {
+   z-index: 900;
+  }
   
-      .home .content {
+    .home .content {
         z-index: 800;
         color: #ffff;
         width: 500px;
@@ -879,7 +1168,7 @@ margin-top: -40px;
     line-height: 32px;
     width: 112px;
     margin-left: 218px;
-    margin-top: -33px;
+    margin-top: -42px;
 }
 
 .container-2 .Panificados {
@@ -1087,6 +1376,115 @@ margin-top: -40px;
   width: 376px;
   vertical-align: middle;
 }
+/*Nosotros*/
+.page-section {
+  padding: 60px 0;
+}
+
+.mb-xxs-20 {
+margin-bottom: 20px;
+}
+
+.section-text, .text {
+line-height: 1.7;
+}
+
+.navbar-2 .logo {
+margin-left: 109px;
+margin-top: -9px;
+}
+
+.navbar-2 {
+position: fixed;
+width: 414px;
+z-index: 2;
+padding: 25px 0;
+transition: all 0.3s ease;
+z-index: 900;
+}
+
+.navbar-2.sticky {
+z-index: 900;
+background: #9A302D;
+padding: 0px 0;
+box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1);
+}
+
+.navbar-2 .logo-img {
+width: 160px;
+margin-left: 5px;
+}
+
+.navbar-2 .show {
+z-index: 900;
+}
+
+.home .content {
+z-index: 800;
+color: #ffff;
+width: 362px;
+margin-left: -261px;
+margin-top: 51px;
+}
+
+.navbar .menu-list {
+position: fixed;
+height: 115vh;
+width: 100%;
+max-width: 350px;
+left: -100%;
+top: 0px;
+display: block;
+padding: 40px 0;
+text-align: center;
+background: #9A302D;
+transition: all 0.3s ease;
+}
+.home-nosotros {
+  overflow: hidden;
+}
+
+.home-nosotros .content h1 {
+  font-family: "KanedaGothic";
+  overflow: hidden;
+  font-size: 80px;
+  margin-left: 20px;
+  margin-top: 130px;
+  font-weight: 900;
+  letter-spacing: 3px;
+  margin-bottom: 40px;
+}
+  
+  .home-nosotros .content {
+  z-index: 888;
+  overflow: hidden;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  margin-top: 80px;
+  margin-left: -3px;
+  }
+  
+  
+  .home-nosotros {
+  position: relative;
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  }
+  
+  .home-nosotros img {
+  z-index: 000;
+  position: absolute;
+  overflow: hidden;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  }
+
 
 }
 
@@ -1272,7 +1670,7 @@ margin-top: -60px;
   line-height: 32px;
   width: 112px;
   margin-left: 189px;
-  margin-top: -33px;
+  margin-top: -43px;
 }
 
 .container-2 .Panificados-p {
