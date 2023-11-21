@@ -1871,6 +1871,135 @@ margin-top: 14px;
 margin-bottom: 40px;
 }
 
+/*Nosotros*/
+.page-section {
+  padding: 60px 0;
+}
+
+.mb-xxs-20 {
+margin-bottom: 20px;
+}
+
+.section-text, .text {
+line-height: 1.7;
+}
+
+.icon {
+  display: block;
+  margin-right: 60px;
+}
+
+.navbar-2 .menu-list {
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  max-width: 360px;
+  left: -100%;
+  top: 0px;
+  display: block;
+  padding: 40px 0;
+  text-align: center;
+  background: #9A302D;
+  transition: all 0.3s ease;
+}
+
+.navbar-2 .logo {
+margin-left: 109px;
+margin-top: -9px;
+}
+
+.navbar-2 {
+position: fixed;
+width: 414px;
+z-index: 2;
+padding: 25px 0;
+transition: all 0.3s ease;
+z-index: 900;
+}
+
+.navbar-2.sticky {
+z-index: 900;
+background: #9A302D;
+padding: 0px 0;
+box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1);
+}
+
+.navbar-2 .logo-img {
+width: 160px;
+margin-left: 5px;
+}
+
+.navbar-2 .show {
+z-index: 900;
+}
+
+.home .content {
+z-index: 800;
+color: #ffff;
+width: 362px;
+margin-left: -261px;
+margin-top: 51px;
+}
+
+.navbar .menu-list {
+position: fixed;
+height: 115vh;
+width: 100%;
+max-width: 350px;
+left: -100%;
+top: 0px;
+display: block;
+padding: 40px 0;
+text-align: center;
+background: #9A302D;
+transition: all 0.3s ease;
+}
+.home-nosotros {
+  overflow: hidden;
+}
+
+.home-nosotros .content h1 {
+  font-family: "KanedaGothic";
+  overflow: hidden;
+  font-size: 80px;
+  margin-left: 20px;
+  margin-top: 130px;
+  font-weight: 900;
+  letter-spacing: 3px;
+  margin-bottom: 40px;
+}
+  
+  .home-nosotros .content {
+  z-index: 888;
+  overflow: hidden;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  margin-top: 80px;
+  margin-left: -3px;
+  }
+  
+  
+  .home-nosotros {
+  position: relative;
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  }
+  
+  .home-nosotros img {
+  z-index: 000;
+  position: absolute;
+  overflow: hidden;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  }
+
+
 footer {
   position: relative;
   width: 376px;
@@ -1908,4 +2037,5 @@ footer {
   width: 370px;
   margin: 0 10px 50px;
 }
+
 }
