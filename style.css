@@ -806,6 +806,7 @@ margin-top: -40px;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  height: 650px;
 }
 
 
@@ -1257,6 +1258,24 @@ i.fa-brands.fa-instagram{
 
 }
   @media (max-width: 425px) {
+  .ssh-cell {
+    display: table-cell;
+    padding-left: 10px;
+    padding-right: 10px;
+    vertical-align: middle;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 0px;
+  }
+
+  .ssh-table {
+    width: 100%;
+    margin-top: 45px;
+    min-height: 390px;
+    display: table;
+}
   
     .navbar .logo {
       margin-left: 109px;
@@ -1631,16 +1650,17 @@ line-height: 1.7;
 
 .navbar-2 .logo {
 margin-left: 109px;
-margin-top: -9px;
+margin-top: -14px;
 }
 
 .navbar-2 {
-position: fixed;
-width: 414px;
-z-index: 2;
-padding: 25px 0;
-transition: all 0.3s ease;
-z-index: 900;
+  position: fixed;
+  width: 425px;
+  z-index: 2;
+  padding: 25px 0;
+  transition: all 0.3s ease;
+  height: 94px;
+  z-index: 900;
 }
 
 .navbar-2.sticky {
@@ -1651,9 +1671,9 @@ box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1);
 }
 
 .navbar-2 .logo-img {
-  width: 106px;
+  width: 120px;
   margin-left: 5px;
-  margin-top: 10px;
+  margin-top: -6px;
 }
 
 .navbar-2 .show {
@@ -1814,7 +1834,7 @@ box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1);
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: -12px;
+  margin-top: -27px;
 }
 
 .home .content h1 {
@@ -2185,7 +2205,13 @@ box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1);
 z-index: 900;
 }
 
-
+.home .content {
+z-index: 800;
+color: #ffff;
+width: 362px;
+margin-left: -261px;
+margin-top: 51px;
+}
 
 .navbar .menu-list {
 position: fixed;
