@@ -110,8 +110,8 @@ body{
 .home .content {
   z-index: 800;
   color: #ffff;
-  width: 500px;
-  margin-left: 380px;
+  width: 532px;
+  margin-left: 340px;
   margin-top: 200px;
 }
 
@@ -708,14 +708,14 @@ margin-top: -40px;
   }
   
   .navbar-2 .logo-img {
-    width: 115px;
-    margin-top: 0px;
+    width: 108px;
+    margin-top: 8px;
     cursor: pointer;
 }
 .navbar-2 .menu-list {
   display: inline-flex;
   width: 358px;
-  margin-top: 7px;
+  margin-top: -2px;
 }
 
   .home-container {
@@ -1180,6 +1180,13 @@ i.fa-brands.fa-instagram{
   }
 
   @media (max-width: 868px) {
+    .navbar .logo-img {
+      width: 187px;
+      margin-top: 22px;
+      margin-left: 104px;
+      cursor: pointer;
+  }
+
     body.disabled{
       overflow: hidden;
     }
@@ -1190,11 +1197,11 @@ i.fa-brands.fa-instagram{
     .icon.hide{
       display: none;
     }
-    .navbar .menu-list{
+    .navbar .menu-list {
       position: fixed;
-      height: 100vh;
+      height: 115vh;
       width: 100%;
-      max-width: 400px;
+      max-width: 418px;
       left: -100%;
       top: 0px;
       display: block;
@@ -1202,7 +1209,8 @@ i.fa-brands.fa-instagram{
       text-align: center;
       background: #9A302D;
       transition: all 0.3s ease;
-    }
+      z-index: 1000;
+  }
     .navbar.show .menu-list{
       left: 0%;
     }
@@ -1244,8 +1252,11 @@ i.fa-brands.fa-instagram{
     .navbar-2.show .menu-list li a{
       margin-left: 0px;
     }
-  }
-  @media (max-width: 414px) {
+
+
+
+}
+  @media (max-width: 425px) {
   
     .navbar .logo {
       margin-left: 109px;
@@ -1269,13 +1280,20 @@ i.fa-brands.fa-instagram{
 }
 
 .navbar .logo-img {
-  width: 160px;
-  margin-left: 22px;
+  width: 145px;
+  margin-left: 14px;
 }
   
   .navbar .show {
    z-index: 900;
   }
+
+  .navbar-2 .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -12px;
+}
   
     .home .content {
         z-index: 800;
@@ -1718,6 +1736,7 @@ transition: all 0.3s ease;
     width: 371px;
 }
 
+
   .home {
     position: relative;
     width: 376px;
@@ -1738,9 +1757,10 @@ transition: all 0.3s ease;
 }
 
 
-  .navbar .logo {
-    margin-left: 109px;
-    margin-top: -9px;
+.navbar .logo {
+  margin-left: 101px;
+  margin-top: -14px;
+
 }
 
 .navbar {
@@ -1768,13 +1788,13 @@ box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1);
     z-index: 900;
   }
 
-    .home .content {
-      z-index: 800;
-      color: #ffff;
-      width: 362px;
-      margin-left: -261px;
-      margin-top: 51px;
-  }
+  .home .content {
+    z-index: 800;
+    color: #ffff;
+    width: 362px;
+    margin-left: -280px;
+    margin-top: 51px;
+}
   
   .navbar .menu-list {
     position: fixed;
@@ -1790,6 +1810,13 @@ box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1);
     transition: all 0.3s ease;
 }
 
+.navbar-2 .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: -12px;
+}
+
 .home .content h1 {
   font-size: 80px;
   font-weight: 900;
@@ -1799,7 +1826,7 @@ box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1);
   line-height: 45px;
   margin-bottom: 16px;
   margin-left: 325px;
-  width: 299px;
+  width: 273px;
 }
 .home .content .Desde {
   font-size: 80px;
@@ -1808,7 +1835,7 @@ box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1);
   text-transform: uppercase;
   letter-spacing: 2px;
   line-height: 50px;
-  width: 286px;
+  width: 222px;
   margin-left: 339px;
 }
 
@@ -2132,12 +2159,13 @@ margin-top: -9px;
 }
 
 .navbar-2 {
-position: fixed;
-width: 414px;
-z-index: 2;
-padding: 25px 0;
-transition: all 0.3s ease;
-z-index: 900;
+  position: fixed;
+  width: 414px;
+  height: 120px;
+  z-index: 2;
+  padding: 25px 0;
+  transition: all 0.3s ease;
+  z-index: 900;
 }
 
 .navbar-2.sticky {
@@ -2157,13 +2185,7 @@ box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1);
 z-index: 900;
 }
 
-.home .content {
-z-index: 800;
-color: #ffff;
-width: 362px;
-margin-left: -261px;
-margin-top: 51px;
-}
+
 
 .navbar .menu-list {
 position: fixed;
