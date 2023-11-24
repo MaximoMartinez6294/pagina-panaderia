@@ -112,7 +112,7 @@ body{
   color: #ffff;
   width: 532px;
   margin-left: 340px;
-  margin-top: 200px;
+  margin-top: 150px;
 }
 
 .home .content h1 {
@@ -258,7 +258,7 @@ body{
   font-weight: 400;
   line-height: 32px;
   width: 230px;
-  margin-left: 795px;
+      margin-left: 810px;
   margin-top: -44px;
 }
 .container-2 .Nuestros {
@@ -906,6 +906,51 @@ p {
   margin: 0 0 10px;
 }
 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.title-box {
+  max-width: 650px;
+  margin: auto;
+}
+
+.title-box h2 {
+  width: 650px;
+  margin-top: 105px;
+
+}
+
+.container-img{
+  width: 100%;
+  max-width: 1550px;
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 250px;
+  grid-gap: 20px;
+}
+.container-img .box-img figure{
+  width: 100%;
+  height: 100%;
+}
+.container-img .box-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.container-img .box-img:nth-child(1){
+  grid-column-start: span 2;
+}
+.container-img .box-img:nth-child(4){
+  grid-row-start: span 2;
+}
+
 /*CONTACT*/
 .contact-home {
   position: relative;
@@ -1099,10 +1144,37 @@ i.fa-brands.fa-facebook {
   padding-right: 5px;
 }
 
+.contact-info i.fa-brands.fa-facebook:hover{
+  color: red;
+}
+
 i.fa-brands.fa-instagram{
   padding-right: 5px;
 }
 
+
+
+
+@media screen and (max-width:800px){
+  .container-img{
+      width: 95%;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 10px;
+      grid-template-rows: 200px;
+  }
+  .container-img .box-img:nth-child(1){
+      grid-column-start: span 1;
+  }
+}
+@media screen and (max-width:500px){
+  .container-img{
+      width: 90%;
+      grid-template-columns: repeat(1, 1fr);
+  }
+  .container-img .box-img img{
+      height: 200px;
+  }
+}
 
 
 /* LARGE SIZE */
@@ -1167,8 +1239,8 @@ i.fa-brands.fa-instagram{
       width: calc(50% - 30px);
     }
   }
-  
-  @media (max-width: 768px) {
+   
+  @media only screen and  (max-width: 768px) {
     .container {
       max-width: 720px;
     }
@@ -1178,6 +1250,225 @@ i.fa-brands.fa-instagram{
       width: 100%;
       margin: 0 10px 50px;
     }
+
+    .navbar-2 .logo-img {
+      width: 110px;
+      margin-top: 8px;
+      cursor: pointer;
+  }
+
+  .navbar-2 .logo {
+    margin-left: 338px;
+    margin-top: -35px;
+}
+
+.home .content {
+  margin-left: -59px;
+}
+.container-1 {
+  margin-left: -424px;
+}
+
+.container-1 h1{
+  margin-left: 530px;
+  width: 607px;
+}
+
+.container-2 .Nuestros {
+  margin-left: 77px;
+  font-size: 120px;
+
+}
+
+.container-2 .Productos {
+  width: 230px;
+  font-size: 120px;
+  margin-left: 376px;
+}
+
+.Panificados-container {
+  width: 200px;
+  margin-left: -211px;
+}
+
+.container-2 .Pan {
+  width: 129px;
+  margin-left: 205px;
+  margin-top: -35px;
+}
+.container-2 .Panificados-p {
+  color: #1E1E1E;
+  text-align: center;
+  font-feature-settings: 'salt' on, 'liga' off;
+  font-family: Open Sans;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+  width: 269px;
+  margin-left: 211px;
+  margin-top: -40px;
+}
+
+.container-2 .Panificados {
+  color: #9A302D;
+  text-align: center;
+  font-feature-settings: 'salt' on, 'liga' off;
+  font-family: "Kaneda Gothic" , "Inter";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  width: 222px;
+  margin-left: 233px;
+  margin-top: 209px;
+}
+
+.Facturas-container {
+  width: 96px;
+  margin-left: -292px;
+}
+
+.container-2 .Facturas {
+  color: #9A302D;
+  text-align: center;
+  font-feature-settings: 'salt' on, 'liga' off;
+  font-family: "Kaneda Gothic";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  width: 208px;
+  margin-top: -272px;
+  margin-left: 573px;
+}
+
+.container-2 .Facturas-p {
+  color: #1E1E1E;
+  text-align: center;
+  font-feature-settings: 'salt' on, 'liga' off;
+  font-family: Open Sans;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+  width: 194px;
+  margin-left: 580px;
+  margin-top: -40px;
+}
+
+.container-2 .Factura {
+  width: 183px;
+  margin-left: 531px;
+  margin-top: -25px;
+}
+
+.button-2 {
+  align-items: center;
+  background-color: #9A302D;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  margin-left: 614px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.Nutricional-container {
+  width: 105px;
+  margin-left: -712px;
+}
+
+.container-2 .Nutricional {
+  color: #9A302D;
+  text-align: center;
+  font-feature-settings: 'salt' on, 'liga' off;
+  font-family: "Kaneda Gothic", "Inter";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  width: 107px;
+  margin-top: -271px;
+  margin-left: 1270px;
+}
+
+.container-2 .Grisin {
+  width: 145px;
+  margin-left: 1213px;
+  margin-top: -15px;
+}
+
+.container-2 .Nutricional-p {
+  color: #1E1E1E;
+  text-align: center;
+  font-feature-settings: 'salt' on, 'liga' off;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+  width: 237px;
+  margin-left: 1224px;
+  margin-top: -15px;
+}
+
+.button-3 {
+  align-items: center;
+  background-color: #9A302D;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  margin-left: 1288px;
+  margin-top: 8px;
+  margin-bottom: 40px;
+}
+
+
+
+
   }
 
   @media (max-width: 868px) {
@@ -1347,6 +1638,9 @@ i.fa-brands.fa-instagram{
   }
   
   /* Container 1*/
+  .container-1 {
+    margin-left: 0px;
+}
   
   .container-1 img {
     width: 270px;
@@ -1429,6 +1723,10 @@ i.fa-brands.fa-instagram{
     margin-left: 218px;
     margin-top: -42px;
 }
+.Panificados-container {
+  width: 200px;
+  margin-left: 8px;
+}
 
 .container-2 .Panificados {
   color: #9A302D;
@@ -1462,6 +1760,7 @@ i.fa-brands.fa-instagram{
   width: 208px;
   margin-left: 197px;
   margin-top: -130px;
+  text-wrap: pretty;
 }
 
 .container-2 .Panificados-container .button-1 {
@@ -1494,6 +1793,11 @@ i.fa-brands.fa-instagram{
   margin-left: 192px;
   margin-top: 10px;
   margin-bottom: 40px;
+}
+
+.Facturas-container {
+  width: 96px;
+  margin-left: 5px;
 }
 
 .container-2 .Facturas {
@@ -1560,6 +1864,11 @@ i.fa-brands.fa-instagram{
   margin-left: 202px;
   margin-top: 14px;
   margin-bottom: 40px;
+}
+
+.Nutricional-container {
+  width: 105px;
+  margin-left: -5px;
 }
 
 .container-2 .Nutricional {
@@ -1676,6 +1985,28 @@ box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1);
   margin-top: -6px;
 }
 
+.contact-home .content {
+  z-index: 888;
+  color: #fff;
+  max-width: 425px;
+  width: 358px;
+  margin-top: 109px;
+  overflow-y: hidden;
+  margin-left: 60px;
+}
+
+.contact-home .content h1 {
+  font-family: KanedaGothicR;
+  font-size: 120px;
+  font-weight: 1000;
+  letter-spacing: 3px;
+  margin-bottom: 40px;
+  padding-left: 314px;
+  margin-top: -33px;
+  margin-left: -338px;
+  width: 371px;
+}
+
 .navbar-2 .show {
 z-index: 900;
 }
@@ -1746,6 +2077,14 @@ transition: all 0.3s ease;
   object-fit: cover;
   }
 
+  .title-box h2 {
+    width: 396px;
+    font-size: 40px;
+    margin-top: -23px;
+    margin-left: 10px;
+    align-self: center;
+    text-align: center;
+}
 
 }
 
@@ -2270,6 +2609,15 @@ transition: all 0.3s ease;
   height: 100%;
   object-fit: cover;
   }
+
+  .title-box h2 {
+    width: 376px;
+    font-size: 40px;
+    margin-top: -23px;
+    margin-left: 10px;
+    align-self: center;
+    text-align: center;
+}
 
 
 footer {
