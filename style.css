@@ -919,8 +919,8 @@ p {
 
 .title-box h2 {
   width: 650px;
+  margin-left: 35px;
   margin-top: 105px;
-
 }
 
 .container-img{
@@ -1966,7 +1966,7 @@ margin-top: -14px;
   position: fixed;
   width: 425px;
   z-index: 2;
-  padding: 25px 0;
+  padding: 11px 0;
   transition: all 0.3s ease;
   height: 94px;
   z-index: 900;
@@ -1975,7 +1975,7 @@ margin-top: -14px;
 .navbar-2.sticky {
 z-index: 900;
 background: #9A302D;
-padding: 0px 0;
+padding: 11px 0;
 box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1);
 }
 
@@ -2080,7 +2080,7 @@ transition: all 0.3s ease;
   .title-box h2 {
     width: 396px;
     font-size: 40px;
-    margin-top: -23px;
+    margin-top: 55px;
     margin-left: 10px;
     align-self: center;
     text-align: center;
@@ -2522,7 +2522,7 @@ margin-top: -9px;
   width: 414px;
   height: 120px;
   z-index: 2;
-  padding: 25px 0;
+  padding: 11px 0;
   transition: all 0.3s ease;
   z-index: 900;
 }
@@ -2530,7 +2530,7 @@ margin-top: -9px;
 .navbar-2.sticky {
 z-index: 900;
 background: #9A302D;
-padding: 0px 0;
+padding: 11px 0;
 box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1);
 }
 
@@ -2611,10 +2611,10 @@ transition: all 0.3s ease;
   }
 
   .title-box h2 {
-    width: 376px;
+    width: 337px;
     font-size: 40px;
-    margin-top: -23px;
-    margin-left: 10px;
+    margin-top: 55px;
+    margin-left: 15px;
     align-self: center;
     text-align: center;
 }
