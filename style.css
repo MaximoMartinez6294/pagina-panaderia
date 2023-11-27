@@ -2545,11 +2545,11 @@ z-index: 900;
 }
 
 .home .content {
-z-index: 800;
-color: #ffff;
-width: 362px;
-margin-left: -261px;
-margin-top: 51px;
+  z-index: 800;
+  color: #ffff;
+  width: 362px;
+  margin-left: -277px;
+  margin-top: 51px;
 }
 
 .navbar .menu-list {
