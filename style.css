@@ -1205,6 +1205,16 @@ i.fa-brands.fa-instagram{
   .container-img .box-img:nth-child(1){
       grid-column-start: span 1;
   }
+
+  .container-img2{
+    width: 95%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-template-rows: 200px;
+}
+.container-img2 .box-img2:nth-child(1){
+    grid-column-start: span 1;
+}
 }
 @media screen and (max-width:500px){
   .container-img{
@@ -1214,6 +1224,14 @@ i.fa-brands.fa-instagram{
   .container-img .box-img img{
       height: 200px;
   }
+
+  .container-img2{
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+}
+.container-img2 .box-img2 img{
+    height: 200px;
+}
 }
 
 
@@ -2117,9 +2135,9 @@ transition: all 0.3s ease;
   object-fit: cover;
   }
 
-  .title-box h2 {
+.title-box h2 {
     width: 396px;
-    font-size: 40px;
+    font-size: 70px;
     margin-top: 55px;
     margin-left: 10px;
     align-self: center;
