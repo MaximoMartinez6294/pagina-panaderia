@@ -2781,9 +2781,9 @@ box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1);
 
   .home .content {
     z-index: 800;
-    color: #ffff;
+    color: rgb(255, 255, 255);
     width: 362px;
-    margin-left: -280px;
+    margin-left: -253px;
     margin-top: 51px;
 }
   
@@ -3195,13 +3195,6 @@ box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1);
 z-index: 900;
 }
 
-.home .content {
-  z-index: 800;
-  color: #ffff;
-  width: 362px;
-  margin-left: -277px;
-  margin-top: 51px;
-}
 
 .navbar .menu-list {
 position: fixed;
