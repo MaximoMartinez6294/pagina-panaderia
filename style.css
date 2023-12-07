@@ -1333,9 +1333,6 @@ i.fa-brands.fa-instagram{
     margin-top: -35px;
 }
 
-.home .content {
-  margin-left: -59px;
-}
 .container-1 {
   margin-left: -424px;
 }
@@ -1682,33 +1679,44 @@ i.fa-brands.fa-instagram{
   z-index: 800;
   color: #ffff;
   width: 362px;
-  margin-left: -230px !important;
-  margin-top: 51px;
+  /* margin-left: -261px; */
+  margin-top: 104px;
+  padding-left: 55px;
 }
   
-  .home .content h1 {
-      font-size: 100px;
-      font-weight: 900;
-      font-family: "KanedaGothic" !important;
-      text-transform: uppercase;
-      letter-spacing: 2px;
-      line-height: 45px;
-      margin-bottom: 40px;
-      margin-left: 294px;
-      width: 354px;
-  }
+.home .content h1 {
+  font-size: 100px;
+  font-weight: 900;
+  font-family: "KanedaGothic" !important;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 45px;
+  margin-bottom: 11px;
+  margin-left: 268px;
+  width: 338px;
+}
   
-  .home .content .Desde {
-      font-size: 100px;
-      font-weight: 300;
-      font-family: "KanedaGothic2" !important;
-      text-transform: uppercase;
-      letter-spacing: 2px;
-      line-height: 50px;
-      width: 330px;
-      margin-left: 320px;
-  
-  }
+.home .content .Desde {
+  font-size: 100px;
+  font-weight: 300;
+  font-family: "KanedaGothic2" !important;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 50px;
+  width: 330px;
+  margin-left: 283px;
+}
+.home .content .deSiempre {
+  font-size: 100px;
+  font-weight: 900;
+  font-family: "KanedaGothic" !important;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 75px;
+  margin-bottom: 15px;
+  margin-left: 260px;
+  width: 332px;
+}
   
   /* Container 1*/
   .container-1 {
@@ -2085,11 +2093,11 @@ z-index: 900;
 }
 
 .home .content {
-z-index: 800;
-color: #ffff;
-width: 362px;
-margin-left: -261px;
-margin-top: 51px;
+  z-index: 800;
+  color: #ffff;
+  width: 362px;
+  margin-left: -227px;
+  margin-top: 51px;
 }
 
 .navbar .menu-list {
@@ -2227,30 +2235,40 @@ transition: all 0.3s ease;
         margin-top: 0px;
     }
   
-  .home .content h1 {
+    .home .content h1 {
       font-size: 100px;
       font-weight: 900;
       font-family: "KanedaGothic" !important;
       text-transform: uppercase;
       letter-spacing: 2px;
       line-height: 45px;
-      margin-bottom: 40px;
-      margin-left: 294px;
-      width: 354px;
+      margin-bottom: 11px;
+      margin-left: 268px;
+      width: 338px;
   }
   
   .home .content .Desde {
-      font-size: 100px;
-      font-weight: 300;
-      font-family: "KanedaGothic2" !important;
-      text-transform: uppercase;
-      letter-spacing: 2px;
-      line-height: 50px;
-      width: 330px;
-      margin-left: 320px;
-  
-  }
-  
+    font-size: 100px;
+    font-weight: 300;
+    font-family: "KanedaGothic2" !important;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 50px;
+    width: 330px;
+    margin-left: 283px;
+}
+
+.home .content .deSiempre {
+  font-size: 100px;
+  font-weight: 900;
+  font-family: "KanedaGothic" !important;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 75px;
+  margin-bottom: 15px;
+  margin-left: 260px;
+  width: 332px;
+}
   /* Container 1*/
   .container-1 {
     margin-left: 0px;
@@ -2791,25 +2809,38 @@ box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1);
 }
 
 .home .content h1 {
-  font-size: 80px;
+  font-size: 100px;
   font-weight: 900;
-  font-family: "KanedaGothic" !important;
   text-transform: uppercase;
   letter-spacing: 2px;
   line-height: 45px;
-  margin-bottom: 16px;
-  margin-left: 325px;
-  width: 273px;
+  margin-bottom: 11px;
+  margin-left: 246px;
+  width: 316px;
+  width: 329px;
+  font-family: KanedaGothic !important;
 }
 .home .content .Desde {
-  font-size: 80px;
+  font-size: 100px;
   font-weight: 300;
-  font-family: "KanedaGothic2" !important;
   text-transform: uppercase;
   letter-spacing: 2px;
   line-height: 50px;
-  width: 222px;
-  margin-left: 339px;
+  width: 301px;
+  margin-left: 257px;
+  font-family: KanedaGothic2 !important;
+}
+
+.home .content .deSiempre {
+  font-size: 100px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 75px;
+  margin-bottom: 15px;
+  margin-left: 235px;
+  width: 332px;
+  font-family: KanedaGothic !important;
 }
 
 /* Container 1*/
