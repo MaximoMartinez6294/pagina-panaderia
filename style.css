@@ -111,31 +111,44 @@ body{
   z-index: 800;
   color: #ffff;
   width: 532px;
-  margin-left: 340px;
+  margin-left: 350px;
   margin-top: 130px;
 }
 
 .home .content h1 {
-  font-size: 180px;
+  font-size: 200px;
   font-weight: 900;
   font-family: "KanedaGothic" !important;
   text-transform: uppercase;
   letter-spacing: 2px;
   line-height: 75px;
-  margin-bottom: 60px;
-  margin-left: 160px;
-  width: 587px;
+  margin-bottom: 80px;
+  margin-left: 130px;
+  width: 650px;
 }
+
+.home .content .deSiempre {
+  font-size: 200px;
+  font-weight: 900;
+  font-family: "KanedaGothic" !important;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 75px;
+  margin-bottom: 80px;
+  margin-left: 116px;
+  width: 650px;
+}
+
 .home .content .Desde {
-  font-size: 160px;
+  font-size: 170px;
   font-weight: 300;
   font-family: "KanedaGothic2" !important;
   text-transform: uppercase;
   letter-spacing: 2px;
   line-height: 75px;
   width: 450px;
-  margin-bottom: 40px;
-  margin-left: 228px;
+  margin-bottom: 44px;
+  margin-left: 210px;
 }
 
 .content {
