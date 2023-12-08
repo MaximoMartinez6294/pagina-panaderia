@@ -2171,6 +2171,15 @@ transition: all 0.3s ease;
 
 
 @media (max-width: 500px) {
+
+  .home {
+    position: relative;
+    width: 100%;
+    min-height: 103vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
   .ssh-cell {
     display: table-cell;
     padding-left: 10px;
