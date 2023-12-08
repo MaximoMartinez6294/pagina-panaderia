@@ -1282,6 +1282,50 @@ i.fa-brands.fa-instagram{
 
 
 @media only screen and (max-width: 768px){
+  .home .content {
+    z-index: 800;
+    color: #ffff;
+    width: 768px;
+    margin-left: -27px;
+    margin-top: 185px;
+}
+.home .content h1 {
+  font-size: 170px;
+  font-weight: 900;
+  font-family: "KanedaGothic" !important;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 75px;
+  margin-bottom: 49px;
+  margin-left: 157px;
+  width: 591px;
+}
+
+.home .content .deSiempre {
+  font-size: 170px;
+  font-weight: 900;
+  font-family: "KanedaGothic" !important;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 75px;
+  margin-bottom: 85px;
+  margin-left: 139px;
+  width: 605px;
+}
+
+.home .content .Desde {
+  font-size: 150px;
+  display: flex;
+  font-weight: 300;
+  font-family: "KanedaGothic2" !important;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 75px;
+  width: 450px;
+  margin-top: -36px;
+  margin-bottom: 86px;
+  margin-left: 216px;
+}
   .page-section {
     padding: 80px 0;
 }
@@ -1705,6 +1749,8 @@ i.fa-brands.fa-instagram{
   line-height: 50px;
   width: 330px;
   margin-left: 283px;
+  margin-top: 0px;
+
 }
 .home .content .deSiempre {
   font-size: 100px;
@@ -3867,7 +3913,7 @@ footer {
 
 }
 
-@media (max-width: 150px) {
+@media (max-width: 70px) {
 
   .navbar .menu-list li {
     margin-top: 45px;
