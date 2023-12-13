@@ -42,7 +42,7 @@ background: rgb(0,123,255,0.3);
 }
 
 body{
-    font-family:  "Poppins", "KanedaGothic", "Inter",  "Open Sans";
+    font-family:  "Poppins" , "Inter" , "Open Sans", "KanedaGothic"!important;
     overflow-x: hidden;
 } 
 .navbar{
