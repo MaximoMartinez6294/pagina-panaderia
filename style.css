@@ -42,7 +42,7 @@ background: rgb(0,123,255,0.3);
 }
 
 body{
-    font-family:  "Poppins" , "Inter" , "Open Sans" "KanedaGothic"!important;
+    font-family:  "Poppins" , "Inter" , "Open Sans", "KanedaGothic"!important;
     overflow-x: hidden;
 } 
 .navbar{
@@ -1844,7 +1844,6 @@ margin-top: -42px;
     .container-2 .Nuestros {
       color: #1E1E1E;
       text-align: center;
-      font-feature-settings: 'salt' on, 'liga' off;
       font-family: "Kaneda Gothic"!important; 
       font-size: 60px !important;
       font-style: normal;
@@ -1859,7 +1858,6 @@ margin-top: -42px;
   .container-2 .Productos {
     color: #9A302D;
     text-align: center;
-    font-feature-settings: 'salt' on, 'liga' off;
     font-family: "Kaneda Gothic" !important;
     font-size: 60px !important;
     font-style: normal;
@@ -1877,7 +1875,6 @@ margin-top: -42px;
 .container-2 .Panificados {
   color: #9A302D;
   text-align: center;
-  font-feature-settings: 'salt' on, 'liga' off;
   font-family: "Kaneda Gothic" !important;
   font-size: 55px !important;
   font-style: normal;
@@ -1896,7 +1893,7 @@ margin-top: -42px;
 
 .container-2 .Panificados-p {
   color: #1E1E1E;
-  font-feature-settings: 'salt' on, 'liga' off;
+
   font-family: Open Sans;
   font-size: 18px !important;
   font-style: normal;
@@ -1949,7 +1946,6 @@ margin-top: -42px;
 .container-2 .Facturas {
   color: #9A302D;
   text-align: center;
-  font-feature-settings: 'salt' on, 'liga' off;
   font-family: "Kaneda Gothic" !important;
   font-size: 55px !important;
   font-style: normal;
@@ -1969,7 +1965,6 @@ margin-top: -42px;
 .container-2 .Facturas-p {
   color: #1E1E1E;
   text-align: start;
-  font-feature-settings: 'salt' on, 'liga' off;
   font-family: Open Sans;
   font-size: 20px;
   font-style: normal;
@@ -2020,7 +2015,6 @@ margin-top: -42px;
 .container-2 .Nutricional {
   color: #9A302D;
   text-align: center;
-  font-feature-settings: 'salt' on, 'liga' off;
   font-family: "Kaneda Gothic" !important;
   font-size: 55px !important;
   font-style: normal;
@@ -2040,7 +2034,7 @@ margin-top: -42px;
 .container-2 .Nutricional-p {
   color: #1E1E1E;
   text-align: start;
-  font-feature-settings: 'salt' on, 'liga' off;
+
   font-family: Open Sans;
   font-size: 20px;
   font-style: normal;
