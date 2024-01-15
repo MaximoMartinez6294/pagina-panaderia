@@ -2146,6 +2146,66 @@ transition: all 0.3s ease;
 
 
 @media (max-width: 500px) {
+  .navbar-2 .menu-list {
+    position: fixed;
+    height: 115vh;
+    width: 100%;
+    max-width: 350px;
+    left: -100%;
+    top: 0px;
+    display: block;
+    padding: 40px 0;
+    text-align: center;
+    background: #9A302D;
+    transition: all 0.3s ease;
+}
+  .right {
+    width: auto;
+    float: none !important;
+}
+
+  .navbar-2 .menu-list li {
+    margin-top: 69px;
+    width: 371px;
+  }
+  
+  .navbar-2.show .menu-list {
+    position: fixed;
+    height: 115vh;
+    width: 100%;
+    max-width: 350px;
+    left: 0%;
+    top: 0px;
+    display: block;
+    padding: 40px 0;
+    text-align: center;
+    background: #9A302D;
+    transition: all 0.3s ease;
+  }
+
+  .navbar.show .menu-list {
+    position: fixed;
+    height: 115vh;
+    width: 100%;
+    max-width: 350px;
+    left: 0%;
+    top: 0px;
+    display: block;
+    padding: 40px 0;
+    text-align: center;
+    background: #9A302D;
+    transition: all 0.3s ease;
+  }
+
+  .navbar .menu-list li {
+    margin-top: 45px;
+    width: 371px;
+}
+
+  .icon {
+    display: block;
+    margin-right: 60px;
+}
 
   .home {
     position: relative;
@@ -2715,6 +2775,46 @@ transition: all 0.3s ease;
 }
 
   @media (max-width: 425px) {
+
+    .navbar-2 .menu-list li {
+      margin-top: 69px;
+      width: 371px;
+    }
+    
+    .navbar-2.show .menu-list {
+      position: fixed;
+      height: 115vh;
+      width: 100%;
+      max-width: 350px;
+      left: 0%;
+      top: 0px;
+      display: block;
+      padding: 40px 0;
+      text-align: center;
+      background: #9A302D;
+      transition: all 0.3s ease;
+    }
+
+    .navbar.show .menu-list {
+      position: fixed;
+      height: 115vh;
+      width: 100%;
+      max-width: 350px;
+      left: 0%;
+      top: 0px;
+      display: block;
+      padding: 40px 0;
+      text-align: center;
+      background: #9A302D;
+      transition: all 0.3s ease;
+    }
+
+    .navbar .menu-list li {
+      margin-top: 45px;
+      width: 371px;
+  }
+    
+
   .ssh-cell {
     display: table-cell;
     padding-left: 10px;
@@ -2726,6 +2826,11 @@ transition: all 0.3s ease;
     background-size: cover;
     height: 0px;
   }
+
+  .icon {
+    display: block;
+    margin-right: 60px;
+}
 
   .ssh-table {
     width: 100%;
