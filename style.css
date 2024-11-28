@@ -1332,7 +1332,7 @@ i.fa-brands.fa-instagram{
  .container-2 .Nuestros {
   color: #1E1E1E;
   text-align: center;
-  font-family: "Kaneda Gothic"!important; 
+  font-family: "KanedaGothic"!important; 
   font-size: 60px !important;
   font-style: normal;
   font-weight: 400 !important;
@@ -1346,7 +1346,7 @@ i.fa-brands.fa-instagram{
 .container-2 .Productos {
 color: #9A302D;
 text-align: center;
-font-family: "Kaneda Gothic" !important;
+font-family: "KanedaGothic" !important;
 font-size: 60px !important;
 font-style: normal;
 font-weight: 400 !important;
@@ -1363,7 +1363,7 @@ margin-left: 60px;
 .container-2 .Panificados {
 color: #9A302D;
 text-align: center;
-font-family: "Kaneda Gothic" !important;
+font-family: "KanedaGothic" !important;
 font-size: 55px !important;
 font-style: normal;
 font-weight: 400 !important;
@@ -1382,7 +1382,7 @@ margin-top: -11px;
 .container-2 .Panificados-p {
 color: #1E1E1E;
 
-font-family: Open Sans;
+font-family: "OpenSans";
 font-size: 18px !important;
 font-style: normal;
 text-align: start;
@@ -1434,7 +1434,7 @@ margin-left: 60px;
 .container-2 .Facturas {
 color: #9A302D;
 text-align: center;
-font-family: "Kaneda Gothic" !important;
+font-family: "KanedaGothic" !important;
 font-size: 55px !important;
 font-style: normal;
 font-weight: 400 !important;
@@ -1453,7 +1453,7 @@ margin-top: -25px;
 .container-2 .Facturas-p {
 color: #1E1E1E;
 text-align: start;
-font-family: Open Sans;
+font-family: "OpenSans";
 font-size: 20px;
 font-style: normal;
 font-weight: 300;
@@ -1503,7 +1503,7 @@ margin-left: 60px;
 .container-2 .Nutricional {
 color: #9A302D;
 text-align: center;
-font-family: "Kaneda Gothic" !important;
+font-family: "KanedaGothic" !important;
 font-size: 55px !important;
 font-style: normal;
 font-weight: 400;
@@ -1523,7 +1523,7 @@ margin-top: -8px;
 color: #1E1E1E;
 text-align: start;
 
-font-family: Open Sans;
+font-family: "OpenSans";
 font-size: 20px;
 font-style: normal;
 font-weight: 300;
@@ -1749,7 +1749,7 @@ margin-bottom: 40px;
     .container-2 .Nuestros {
       color: #1E1E1E;
       text-align: center;
-      font-family: "Kaneda Gothic"!important; 
+      font-family: "KanedaGothic"!important; 
       font-size: 60px !important;
       font-style: normal;
       font-weight: 400 !important;
@@ -1763,7 +1763,7 @@ margin-bottom: 40px;
   .container-2 .Productos {
     color: #9A302D;
     text-align: center;
-    font-family: "Kaneda Gothic" !important;
+    font-family: "KanedaGothic" !important;
     font-size: 60px !important;
     font-style: normal;
     font-weight: 400 !important;
@@ -1780,7 +1780,7 @@ margin-bottom: 40px;
 .container-2 .Panificados {
   color: #9A302D;
   text-align: center;
-  font-family: "Kaneda Gothic" !important;
+  font-family: "KanedaGothic" !important;
   font-size: 55px !important;
   font-style: normal;
   font-weight: 400 !important;
@@ -1799,7 +1799,7 @@ margin-bottom: 40px;
 .container-2 .Panificados-p {
   color: #1E1E1E;
 
-  font-family: Open Sans;
+  font-family: "OpenSans";
   font-size: 18px !important;
   font-style: normal;
   text-align: start;
@@ -1851,7 +1851,7 @@ margin-bottom: 40px;
 .container-2 .Facturas {
   color: #9A302D;
   text-align: center;
-  font-family: "Kaneda Gothic" !important;
+  font-family: "KanedaGothic" !important;
   font-size: 55px !important;
   font-style: normal;
   font-weight: 400 !important;
@@ -1870,7 +1870,7 @@ margin-bottom: 40px;
 .container-2 .Facturas-p {
   color: #1E1E1E;
   text-align: start;
-  font-family: Open Sans;
+  font-family: "OpenSans";
   font-size: 20px;
   font-style: normal;
   font-weight: 300;
@@ -1920,7 +1920,7 @@ margin-bottom: 40px;
 .container-2 .Nutricional {
   color: #9A302D;
   text-align: center;
-  font-family: "Kaneda Gothic" !important;
+  font-family: "KanedaGothic" !important;
   font-size: 55px !important;
   font-style: normal;
   font-weight: 400;
@@ -1940,7 +1940,7 @@ margin-bottom: 40px;
   color: #1E1E1E;
   text-align: start;
 
-  font-family: Open Sans;
+  font-family: "OpenSans";
   font-size: 20px;
   font-style: normal;
   font-weight: 300;
@@ -2047,7 +2047,7 @@ box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1);
 }
 
 .contact-home .content h1 {
-  font-family: KanedaGothicR !important;
+  font-family: "KanedaGothicR" !important;
   font-size: 120px;
   font-weight: 1000;
   letter-spacing: 3px;
@@ -2396,7 +2396,7 @@ transition: all 0.3s ease;
       color: #1E1E1E;
       text-align: center;
       font-feature-settings: 'salt' on, 'liga' off;
-      font-family: "Kaneda Gothic";
+      font-family: "KanedaGothic";
       font-size: 60px;
       font-style: normal;
       font-weight: 400;
@@ -2411,7 +2411,7 @@ transition: all 0.3s ease;
     color: #9A302D;
     text-align: center;
     font-feature-settings: 'salt' on, 'liga' off;
-    font-family: "Kaneda Gothic";
+    font-family: "KanedaGothic";
     font-size: 60px;
     font-style: normal;
     font-weight: 400;
@@ -2429,7 +2429,7 @@ transition: all 0.3s ease;
   color: #9A302D;
   text-align: center;
   font-feature-settings: 'salt' on, 'liga' off;
-  font-family: "Kaneda Gothic";
+  font-family: "KanedaGothic";
   font-size: 55px;
   font-style: normal;
   font-weight: 400;
@@ -2448,7 +2448,7 @@ transition: all 0.3s ease;
 .container-2 .Panificados-p {
   color: #1E1E1E;
   font-feature-settings: 'salt' on, 'liga' off;
-  font-family: Open Sans;
+  font-family: "OpenSans";
   font-size: 18px;
   font-style: normal;
   text-align: start;
@@ -2501,7 +2501,7 @@ transition: all 0.3s ease;
   color: #9A302D;
   text-align: center;
   font-feature-settings: 'salt' on, 'liga' off;
-  font-family: "Kaneda Gothic";
+  font-family: "KanedaGothic";
   font-size: 55px;
   font-style: normal;
   font-weight: 400;
@@ -2521,7 +2521,7 @@ transition: all 0.3s ease;
   color: #1E1E1E;
   text-align: start;
   font-feature-settings: 'salt' on, 'liga' off;
-  font-family: Open Sans;
+  font-family: "OpenSans";
   font-size: 20px;
   font-style: normal;
   font-weight: 300;
@@ -2572,7 +2572,7 @@ transition: all 0.3s ease;
   color: #9A302D;
   text-align: center;
   font-feature-settings: 'salt' on, 'liga' off;
-  font-family: "Kaneda Gothic";
+  font-family: "KanedaGothic";
   font-size: 55px;
   font-style: normal;
   font-weight: 400;
@@ -2592,7 +2592,7 @@ transition: all 0.3s ease;
   color: #1E1E1E;
   text-align: start;
   font-feature-settings: 'salt' on, 'liga' off;
-  font-family: Open Sans;
+  font-family: "OpenSans";
   font-size: 20px;
   font-style: normal;
   font-weight: 300;
@@ -2699,7 +2699,7 @@ box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1);
 }
 
 .contact-home .content h1 {
-  font-family: KanedaGothicR !important;
+  font-family: "KanedaGothicR" !important;
   font-size: 120px;
   font-weight: 1000;
   letter-spacing: 3px;
@@ -3016,14 +3016,14 @@ transition: all 0.3s ease;
       color: #1E1E1E;
       text-align: center;
       font-feature-settings: 'salt' on, 'liga' off;
-      font-family: "Kaneda Gothic";
+      font-family: "KanedaGothic";
       font-size: 60px;
       font-style: normal;
       font-weight: 400;
       line-height: 32px;
       padding-top: 0px;
       margin-top: -25px;
-      margin-left: 63px;
+      margin-left: 35px;
       width: 160px;
   }
 
@@ -3031,13 +3031,13 @@ transition: all 0.3s ease;
     color: #9A302D;
     text-align: center;
     font-feature-settings: 'salt' on, 'liga' off;
-    font-family: "Kaneda Gothic";
+    font-family: "KanedaGothic";
     font-size: 60px;
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
     width: 112px;
-    margin-left: 218px;
+    margin-left: 200px;
     margin-top: -42px;
 }
 .Panificados-container {
@@ -3049,7 +3049,7 @@ transition: all 0.3s ease;
   color: #9A302D;
   text-align: center;
   font-feature-settings: 'salt' on, 'liga' off;
-  font-family: "Kaneda Gothic";
+  font-family: "KanedaGothic";
   font-size: 55px;
   font-style: normal;
   font-weight: 400;
@@ -3068,7 +3068,7 @@ transition: all 0.3s ease;
 .container-2 .Panificados-p {
   color: #1E1E1E;
   font-feature-settings: 'salt' on, 'liga' off;
-  font-family: Open Sans;
+  font-family: "OpenSans";
   font-size: 18px;
   font-style: normal;
   text-align: start;
@@ -3121,7 +3121,7 @@ transition: all 0.3s ease;
   color: #9A302D;
   text-align: center;
   font-feature-settings: 'salt' on, 'liga' off;
-  font-family: "Kaneda Gothic";
+  font-family: "KanedaGothic";
   font-size: 55px;
   font-style: normal;
   font-weight: 400;
@@ -3141,7 +3141,7 @@ transition: all 0.3s ease;
   color: #1E1E1E;
   text-align: start;
   font-feature-settings: 'salt' on, 'liga' off;
-  font-family: Open Sans;
+  font-family: "OpenSans";
   font-size: 20px;
   font-style: normal;
   font-weight: 300;
@@ -3192,7 +3192,7 @@ transition: all 0.3s ease;
   color: #9A302D;
   text-align: center;
   font-feature-settings: 'salt' on, 'liga' off;
-  font-family: "Kaneda Gothic";
+  font-family: "KanedaGothic";
   font-size: 55px;
   font-style: normal;
   font-weight: 400;
@@ -3212,7 +3212,7 @@ transition: all 0.3s ease;
   color: #1E1E1E;
   text-align: start;
   font-feature-settings: 'salt' on, 'liga' off;
-  font-family: Open Sans;
+  font-family: "OpenSans";
   font-size: 20px;
   font-style: normal;
   font-weight: 300;
@@ -3319,7 +3319,7 @@ box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1);
 }
 
 .contact-home .content h1 {
-  font-family: KanedaGothicR !important;
+  font-family: "KanedaGothicR" !important;
   font-size: 120px;
   font-weight: 1000;
   letter-spacing: 3px;
@@ -3573,7 +3573,7 @@ box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1);
   margin-left: 246px;
   width: 316px;
   width: 329px;
-  font-family: KanedaGothic !important;
+  font-family: "KanedaGothic" !important;
 }
 .home .content .Desde {
   font-size: 100px;
@@ -3583,7 +3583,7 @@ box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1);
   line-height: 50px;
   width: 301px;
   margin-left: 257px;
-  font-family: KanedaGothic2 !important;
+  font-family: "KanedaGothic2" !important;
 }
 
 .home .content .deSiempre {
@@ -3771,7 +3771,7 @@ margin-top: -25px;
 color: #1E1E1E;
 text-align: start;
 font-feature-settings: 'salt' on, 'liga' off;
-font-family: Open Sans;
+font-family: "OpenSans";
 font-size: 20px;
 font-style: normal;
 font-weight: 300;
